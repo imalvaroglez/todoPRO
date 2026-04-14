@@ -17,7 +17,7 @@ Este curso tiene dos versiones:
 
 ## 🎯 QUÉ VAS A APRENDER
 
-El curso está dividido en **2 grandes secciones**:
+El curso está dividido en **2 grandes secciones:**
 
 ### 1. Programación Estructurada y Modular
 - Variables y tipos de datos
@@ -144,12 +144,12 @@ Encontrarás carpetas organizadas por tema. Cada tema tiene ejemplos que puedes 
 
 **Ruta para Python:**
 ```
-python/Ejemplos PRO/Estructurada y Modular/01 Estructuras de Informacion Simples/01 Variables y Constantes/
+python/estructurada-y-modular/01-estructuras-de-informacion-simples/01-variables-y-constantes/
 ```
 
 **Ruta para C++:**
 ```
-cpp/Ejemplos PRO/Estructurada y Modular/01 Estructuras de Informacion Simples/01 Variables y Constantes/
+cpp/estructurada-y-modular/01-estructuras-de-informacion-simples/01-variables-y-constantes/
 ```
 
 ### 2. Ejemplos por tema
@@ -157,14 +157,15 @@ cpp/Ejemplos PRO/Estructurada y Modular/01 Estructuras de Informacion Simples/01
 Cada carpeta tiene varios ejemplos numerados:
 
 ```
-01 Variables y Constantes/
-├── 01 Hola Mundo/
+01-variables-y-constantes/
+├── 01-hola-mundo/
 │   └── main.py           (Python)
 │   └── main.c            (C++)
-├── 02 Variables tipo entero/
-├── 03 Variables tipo real/
-├── 04 Operadores aritméticos/
-└── ...
+├── 02-variables-tipo-entero/
+├── 06-variables-reales/
+├── 07-operadores-aritmeticos/
+├── 09-constantes-1/
+└── 16-variables-cadena/
 ```
 
 **Cómo estudiar:**
@@ -174,7 +175,7 @@ Cada carpeta tiene varios ejemplos numerados:
 4. Ejecuta el código
 5. Experimenta modificándolo
 
-### 3. Practicas
+### 3. Prácticas
 
 La carpeta `Practicas/` contiene archivos PDF con ejercicios para resolver. Estos son los "trabajos" que debes entregar.
 
@@ -194,35 +195,35 @@ La carpeta `Tareas/` contiene tareas adicionales para reforzar lo aprendido.
 ## 🎓 SECUENCIA RECOMENDADA
 
 ### Semana 1: Fundamentos
-1. **Variables y Constantes** (`01 Estructuras de Informacion Simples/01 Variables y Constantes/`)
+1. **Variables y Constantes** (`01-estructuras-de-informacion-simples/01-variables-y-constantes/`)
 2. **Operadores Aritméticos** (mismo tema)
 3. Resuelve **Practica1.pdf**
 
 ### Semana 2: Control de Flujo
-1. **Estructuras de Control** (`02 Estructuras de Control/`)
-2. **Iteración/Bucles** (`03 Iteracion/`)
+1. **Estructuras de Control** (`02-estructuras-de-control/`)
+2. **Iteración/Bucles** (`03-iteracion/`)
 3. Resuelve **Practica2.pdf**
 
 ### Semana 3: Funciones
-1. **Funciones** (`04 Funciones/`)
+1. **Funciones** (`04-funciones/`)
 2. Resuelve **Practica3.pdf**
 
 ### Semana 4: Estructuras de Datos
-1. **Arreglos** (`05 Arreglos/`)
-2. **Estructuras Complejas** (`06 Estructuras de Informacion Compleja/`)
+1. **Arreglos** (`05-arreglos/`)
+2. **Estructuras Complejas** (`06-estructuras-de-informacion-compleja/`)
 3. Resuelve **Practica4.pdf**
 
 ### Semana 5-6: Modularidad
-1. **Modularidad** (`07 Modularidad/`)
+1. **Modularidad** (`07-modularidad/`)
 2. Resuelve **Practica5.pdf** y **Practica6.pdf**
 
 ### Semana 7-12: Programación Orientada a Objetos
-1. **Conceptos básicos** (`Orientada a Objetos/01 Conceptos basicos/`)
-2. **Constructores** (`02 Constructores/`)
-3. **Métodos** (`03 Metodos/`)
-4. **Encapsulamiento** (`04 Encapsulamiento/`)
-5. **Herencia** (`08 Herencia simple/`)
-6. **Polimorfismo** (`10 Polimorfismo/`)
+1. **Conceptos básicos** (`orientada-a-objetos/01-conceptos-basicos/`)
+2. **Constructores** (`02-constructores/`)
+3. **Métodos** (`03-metodos/`)
+4. **Encapsulamiento** (`04-encapsulamiento/`)
+5. **Herencia** (`08-herencia-simple/`)
+6. **Polimorfismo** (`10-polimorfismo/`)
 7. Resuelve **Practica7.pdf** hasta **PracticaC.pdf**
 
 ---
@@ -230,7 +231,7 @@ La carpeta `Tareas/` contiene tareas adicionales para reforzar lo aprendido.
 ## 💡 CONSEJOS PARA APRENDER
 
 1. **No copies y pegues ciegamente:** Lee el código, entiéndelo, luego escríbelo tú mismo
-2. **Experimenta:** Cambia valores, prueba combinaciones, rompe el código y arreglalo
+2. **Experimenta:** Cambia valores, prueba combinaciones, rompe el código y arréglalo
 3. **Pregunta:** Si algo no te queda claro, pregunta. No te estanques más de 30 minutos
 4. **Practica todos los días:** Aunque sea solo 15-20 minutos, la consistencia es clave
 5. **Usa los ejemplos:** Están ahí para ayudarte. Cópialos, modifícalos, aprende de ellos
@@ -282,13 +283,13 @@ Si tienes dudas:
 Una vez que domines lo fundamental (variables, bucles, funciones, POO), puedes explorar recursos más avanzados:
 
 ### ¿Qué es GitHub?
+
 **GitHub** es la plataforma más grande del mundo para alojar y compartir código. Piensa en esto:
 
 - Es como "Google Drive" para código
 - Los desarrolladores suben sus proyectos a GitHub
 - Otros pueden ver, descargar, aprender y colaborar con ese código
 - Es **TOTALMENTE GRATIS** y muy usado en la industria
-
 - Muchas empresas piden ver tu perfil de GitHub cuando entrevistan
 
 ### Proyecto Recomendado: Coding Interview University
@@ -320,7 +321,6 @@ Cuando tengas algunos proyectos interesantes (después de las primeras 4-6 seman
    - Un portafolio que puedes mostrar a futuros empleadores
    - La posibilidad de que otros aprendan de tu código
    - Una forma de rastrear tu progreso como programador
-
 
 **¿Por qué hacerlo?**
 - Muchas empresas piden ver tu perfil de GitHub al contratar
